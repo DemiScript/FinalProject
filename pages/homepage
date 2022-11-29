@@ -3,16 +3,68 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Website</title>
+    <title>Demystic Nails</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="">
+    <link rel="icon" href="" type="image/x-icon">
   </head>
   <body>
     <main>
-        <h1>Welcome to My Website</h1>  
+      <!--Header-->
+      <h1>Demystic Nails</h1>
+      <div class = "navbar">
+        <ul>
+          <li>Services</li>
+          <li>About
+            <ul>
+              <li>History</li>
+            </ul>
+          </li>
+          <li>Gallery</li>
+          <li>Contact</li>
+          <li>Online Booking</li>
+        </ul>
+      </div>
+      
+      <!--Images Carousel-->
+      <div>
+        <img src="" alt=""/>
+        <img src="" alt=""/>
+        <img src="" alt=""/>
+        <img src="" alt=""/>
+        <img src="" alt=""/>
+        <img src="" alt=""/>
+      </div>
+
+      <!--Right-side content-->
+
+      <!--location-->
+      <div class = "right-side">
+        <p>
+          <!--Location-->
+          <br>
+          <!--Hrs-->
+        </p>
+
+        <!--Images about Covid-19 safety measures-->
+        <div>
+          <img src="" alt=""/>
+          <p>
+            <!--Info-->
+          </p>
+        </div>
+      </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 	<script src="index.js"></script>
+  <!--Footer-->
+  <footer>
+    <ul>
+      <li>Terms of Service</li>
+      <li>Privac Policy</li>
+      <li>Cookie Policy</li>
+      <li>&copy; Demystic Nails, 2077</li>
+    </ul>
+  </footer>
   </body>
 </html>
