@@ -41,9 +41,12 @@
       <!--location-->
       <div class = "right-side">
         <p>
-          <!--Location-->
+          946 West Hall St. New York, NY 10009
           <br>
-          <!--Hrs-->
+          <ul>
+            <li>Mondays CLOSED</li>
+            <li>Tue-Sun 3PM-7PM</li>
+          </ul>
         </p>
 
         <!--Images about Covid-19 safety measures-->
