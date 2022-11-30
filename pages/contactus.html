@@ -11,6 +11,15 @@
     <link rel="stylesheet" href="">
     <link rel="icon" href="../images/nail.png" type="image/x-icon">
     <style type="text/css">
+      
+      body{
+        background-image: url(../images/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: auto;
+        text-align: center;
+        border-radius: 10px;
+      }
        ul{
           list-style-type: none;
           padding: 0;
@@ -70,19 +79,19 @@
       <form>
         <p>
           <label for="name-field">Full Name:</label><br>
-          <input type="text" id="name-field">
+          <input type="text" id="name-field" placeholder="Your name">
         </p>
         <p>
           <label for="email-field">Email Address:</label><br>
-          <input type="text" id="email-field">
+          <input type="text" id="email-field" placeholder="Your email">
         </p>
         <p>
           <label for="subject-field">Subject:</label><br>
-          <input type="text" id="subject-field">
+          <input type="text" id="subject-field" placeholder="Topic">
         </p>
         <p>
           <label for="message-field">Message:</label><br>
-          <textarea id="message-field"></textarea>
+          <textarea id="message-field" placeholder="Your message"></textarea>
         </p>
         <p>
           <input type="submit" value="Submit">
