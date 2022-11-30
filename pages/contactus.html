@@ -9,25 +9,64 @@
       rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" 
       crossorigin="anonymous">
     <link rel="stylesheet" href="">
-    <link rel="icon" href="" type="image/x-icon">
+    <link rel="icon" href="../images/nail.png" type="image/x-icon">
+    <style type="text/css">
+       ul{
+          list-style-type: none;
+          padding: 0;
+        }
+        #footer-container{
+          text-align: center;
+          display: inline;
+        }
+        #ul-container li{
+          display: inline;
+        }
+        .ul-item{
+          margin: 0 7rem 0 7rem;
+          text-decoration: none;
+          color: black;
+        }
+    </style>
   </head>
   <body>
     <main>
-      <!--Header-->
-      <h1>Demystic Nails</h1>
-      <div class = "navbar">
-        <ul>
-          <li>Services</li>
-          <li>About
-            <ul>
-              <li>History</li>
+     <!--Name and navigation bar-->
+    <div class="container-fluid">
+      <div class="navbar navbar-expand-xxl navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a href="" class="navbar-brand">Demystic Nails</a><!--Add link to homepage-->
+          <div class = "collapse navbar-collapse" id="nav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Services</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
+                <ul class="dropdown-menu">
+                  <li><a href="" class="dropdown-item">History</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Online Booking</a>
+              </li>
             </ul>
-          </li>
-          <li>Gallery</li>
-          <li>Contact</li>
-          <li>Online Booking</li>
-        </ul>
+          </div>
+          <button class="navbar-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+            <img src="../images/three-dots.svg">     
+          </button>
+        </div>
       </div>
+    </div>
       <form>
         <p>
           <label for="name-field">Full Name:</label><br>
@@ -55,13 +94,15 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
       crossorigin="anonymous"></script>
 <!--Footer-->
-  <footer>
-    <ul>
-      <li>Terms of Service</li>
-      <li>Privacy Policy</li>
-      <li>Cookie Policy</li>
-      <li>&copy; Demystic Nails, 2077</li>
+<footer>
+  <div class="container-fluid" id="footer-container">
+    <ul id="ul-container">
+      <li><a href="" class="ul-item">Terms of Service</a></li>
+      <li><a href="" class="ul-item">Privacy Policy</a></li>
+      <li><a href="" class="ul-item">Cookie Policy</a></li>
+      <li><a href="" class="ul-item">&copy; Demystic Nails, 2077</a></li>
     </ul>
-  </footer>
+  </div>
+</footer>
   </body>
 </html>
