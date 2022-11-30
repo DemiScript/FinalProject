@@ -1,0 +1,46 @@
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;..");
+}
+.navbar-toggle{
+  background-color: transparent; /* make the button transparent */
+  border-color: transparent;
+}
+.containter-fluid~.carousel.slide{
+  width: auto;
+  height: 80%;
+  position: left;
+}
+.carousel-inner{
+  height: 80%;
+}
+.right-side-content{
+  float: right;
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+.carousel-indicators{
+  position: relative;
+  bottom: -50px;
+}
+#small-info{
+  margin-bottom: 0;
+  display: block;
+  background-color: pink;
+  border-radius: 4px;
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+#footer-container{
+  text-align: center;
+  display: inline;
+}
+#ul-container li{
+  display: inline;
+}
+.ul-item{
+  margin: 0 7rem 0 7rem;
+  text-decoration: none;
+  color: black;
+}

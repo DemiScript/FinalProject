@@ -1,0 +1,24 @@
+body{
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+#footer-container{
+    text-align: center;
+    display: inline;
+}
+#ul-container li{
+    display: inline;
+}
+.ul-item{
+    margin: 0 7rem 0 7rem;
+    text-decoration: none;
+    color: black;
+}

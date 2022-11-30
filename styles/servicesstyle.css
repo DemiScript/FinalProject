@@ -1,0 +1,32 @@
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;..");
+    }
+    .navbar-toggle{
+      background-color: transparent; /* make the button transparent */
+      border-color: transparent;
+    }
+    #footer-container{
+      text-align: center;
+      display: inline;
+    }
+    #ul-container li{
+      display: inline;
+    }
+    .ul-item{
+      margin: 0 7rem 0 7rem;
+      text-decoration: none;
+      color: black;
+    }
+    .row{
+      text-align: center;
+      margin: 5rem 10rem 5rem 10rem;
+    }
+    .card{
+      padding: 1rem;
+    }
+    .card-text{
+      height: 7rem;
+    }
+    .card:hover{
+      transform: scale(1.10);
+    } 
