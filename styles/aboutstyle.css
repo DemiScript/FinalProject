@@ -1,0 +1,20 @@
+.navbar-toggle{
+    background-color: transparent; /* make the button transparent */
+    border-color: transparent;
+  }
+ul{
+    list-style-type: none;
+    padding: 0;
+  }
+  #footer-container{
+    text-align: center;
+    display: inline;
+  }
+  #ul-container li{
+    display: inline;
+  }
+  .ul-item{
+    margin: 0 7rem 0 7rem;
+    text-decoration: none;
+    color: black;
+  }
