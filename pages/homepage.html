@@ -1,66 +1,139 @@
 <!DOCTYPE html>
 <!--Developer: Demi Matos, IIS117003 Fall 2022-->
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Demystic Nails</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="">
-    <link rel="icon" href="" type="image/x-icon">
-  </head>
-  <body>
-    <main>
-      <!--Header-->
-      <h1>Demystic Nails</h1>
-      <div class = "navbar">
-        <ul>
-          <li>Services</li>
-          <li>About
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Demystic Nails</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="icon" href="" type="image/x-icon">
+  <style>
+    [class*="col"] {
+      padding: 1rem;
+      background-color: #d63384;
+      border: 1px solid #fff;
+      color: #fff;
+    }
+
+    div h1 {
+      font-size: 1.5rem;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      position: relative;
+    }
+
+    #nav_menu ul li {
+      float: left;
+    }
+
+    ul li a {
+      display: block;
+      color: #fff;
+      text-align: center;
+      padding-top: 0.75em;
+      padding-bottom: 0.5em;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    li{
+      text-decoration: none;
+    }
+    li ul {
+      display: none;
+    }
+
+    li ul li {
+      clear: both;
+    }
+
+    ul li:hover ul {
+
+      display: block;
+    }
+     a:hover {
+	  font-style: italic;
+    color: yellow;
+    }
+
+
+  </style>
+</head>
+
+<body>
+  <main>
+    <!--Name and navigation bar-->
+    <div class="container-fluid">
+      <div class = "row">
+        <div class = "col-4">
+          <h1>Demystic Nails</h1>
+        </div>
+        <div class = "col">
+          
+          <nav id = "nav_menu">
+
+
+
+
+
+
+            <div class = "col-1"><a href = "#"> Services </a></div>
+            <div class = "col-1"><a href = "#"> About </a></div>
             <ul>
-              <li>History</li>
+              
+              <li><a href = "#"> About </a>
+                <ul>
+                  <li><a href="#"> History </a></li>
+                </ul>
+              </li>
+              <li><a href = "#"> Gallery </a></li>
+              <li><a href = "#"> Contact </a></li>
+              <li><a href = "#"> Online Booking </a></li>
             </ul>
-          </li>
-          <li>Gallery</li>
-          <li>Contact</li>
-          <li>Online Booking</li>
-        </ul>
-      </div>
-      
-      <!--Images Carousel-->
-      <div>
-        <img src="" alt=""/>
-        <img src="" alt=""/>
-        <img src="" alt=""/>
-        <img src="" alt=""/>
-        <img src="" alt=""/>
-        <img src="" alt=""/>
-      </div>
-
-      <!--Right-side content-->
-
-      <!--location-->
-      <div class = "right-side-content">
-        <p>
-          946 West Hall St. New York, NY 10009
-          <br>
-          <ul>
-            <li>Mondays CLOSED</li>
-            <li>Tue-Sun 3PM-7PM</li>
-          </ul>
-        </p>
-
-        <!--Images about Covid-19 safety measures-->
-        <div>
-          <img src="" alt=""/>
-          <p>
-            <!--Info-->
-          </p>
+          </nav>
         </div>
       </div>
-    </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-	<script src="index.js"></script>
+    </div>
+    <!--Images Carousel-->
+    <div>
+      <img src="" alt="" />
+      <img src="" alt="" />
+      <img src="" alt="" />
+      <img src="" alt="" />
+      <img src="" alt="" />
+      <img src="" alt="" />
+    </div>
+
+    <!--Right-side content-->
+
+    <!--location-->
+    <div class="right-side-content">
+      <p>
+        946 West Hall St. New York, NY 10009
+        <br>
+      <ul>
+        <li>Mondays CLOSED</li>
+        <li>Tue-Sun 3PM-7PM</li>
+      </ul>
+      </p>
+
+      <!--Images about Covid-19 safety measures-->
+      <div>
+        <img src="" alt="" />
+        <p>
+          <!--Info-->
+        </p>
+      </div>
+    </div>
+
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
   <!--Footer-->
   <footer>
     <ul>
@@ -70,5 +143,6 @@
       <li>&copy; Demystic Nails, 2077</li>
     </ul>
   </footer>
-  </body>
+</body>
+
 </html>
