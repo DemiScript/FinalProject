@@ -3,10 +3,12 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     margin: auto;
-    text-align: center;
     border-radius: 10px;
 }
-ul{
+a{
+    text-decoration: none;
+}
+#ul-container{
     list-style-type: none;
     padding: 0;
 }

@@ -2,7 +2,21 @@
     background-color: transparent; /* make the button transparent */
     border-color: transparent;
   }
-ul{
+  .container-fluid .row{
+    margin: 2rem;
+  }
+  .embed-responsive{
+    text-align: center;
+  }
+  .container-right{
+    margin: 1rem;
+  }
+  .header-container h3{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+  }
+#ul-container{
     list-style-type: none;
     padding: 0;
   }

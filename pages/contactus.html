@@ -49,27 +49,73 @@
         </div>
       </div>
       <!--container fluid, add another column for information about us-->
-      <form>
-        <p>
-          <label for="name-field">Full Name:</label><br>
-          <input type="text" id="name-field" placeholder="Your name">
-        </p>
-        <p>
-          <label for="email-field">Email Address:</label><br>
-          <input type="text" id="email-field" placeholder="Your email">
-        </p>
-        <p>
-          <label for="subject-field">Subject:</label><br>
-          <input type="text" id="subject-field" placeholder="Topic">
-        </p>
-        <p>
-          <label for="message-field">Message:</label><br>
-          <textarea id="message-field" placeholder="Your message"></textarea>
-        </p>
-        <p>
-          <input type="submit" value="Submit">
-        </p>
-      </form>
+      <div class="container fluid">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="container-form">
+              <form>
+                <p>
+                  <label for="name-field">Full Name:</label><br>
+                  <input type="text" id="name-field" placeholder="Your name">
+                </p>
+                <p>
+                  <label for="email-field">Email Address:</label><br>
+                  <input type="text" id="email-field" placeholder="Your email">
+                </p>
+                <p>
+                  <label for="subject-field">Subject:</label><br>
+                  <input type="text" id="subject-field" placeholder="Topic">
+                </p>
+                <p>
+                  <label for="message-field">Message:</label><br>
+                  <textarea id="message-field" placeholder="Your message"></textarea>
+                </p>
+                <p>
+                  <input type="submit" value="Submit">
+                </p>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="container-right">
+              <div class="container-section">
+                <!--Location-->
+                <h4>
+                  Location
+                </h4>
+                <p>
+                  946 West Hall St. New York, NY 10009
+                </p>
+              </div>
+              <div class="container-section">
+                <!--Phone Number-->
+                <h4>Phone Number</h4>
+                <p>
+                  +1 (965)759-3345
+                </p>
+              </div>
+              <div class="container-section">
+                <!--Hours of Operation-->
+                <h4>Hours of operation</h4>
+                <ul>
+                  <li>Mondays CLOSED</li>
+                  <li>Tue-Sun 3PM-7PM</li>
+                </ul>
+              </div>
+              <div class="container-section">
+                <!--Subscribe to our socials-->
+                <h4>Follow us in our socials!</h4>
+                <ul>
+                  <li><a href="#">Instagram</a></li>
+                  <li><a href="#">Facebook</a></li>
+                  <li><a href="#">Yelp</a></li>
+                  <li><a href="#">Tiktok</a></li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
       
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
